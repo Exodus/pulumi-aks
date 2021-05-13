@@ -1,0 +1,46 @@
+{
+    "name": "@exodus/aks",
+    "version": "0.1.0",
+    "author": {
+        "name": "Miguel A. Alvarado V.",
+        "email": "alvaradoma@gmail.com"
+    },
+    "description": "A Pulumi Component Resource for AKS",
+    "homepage": "https://github.com/Exodus/pulumi-aks",
+    "scripts": {
+        "build": "tsc --diagnostics",
+        "clean": "rm -rf ./dist ./lib"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Exodus/pulumi-aks.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Exodus/pulumi-aks/issues"
+    },
+    "license": "MPL-2.0",
+    "keywords": [
+        "pulumi",
+        "azure",
+        "aks"
+    ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "devDependencies": {
+        "@types/node": "^10.0.0",
+        "prettier": "^2.3.0"
+    },
+    "dependencies": {
+        "@pulumi/azure-native": "^1.0.0",
+        "@pulumi/pulumi": "^3.0.0"
+    },
+    "directories": {
+        "lib": "src/"
+    },
+    "types": "dist/index.d.ts",
+    "main": "dist/index.js",
+    "files": [
+        "dist/"
+    ]
+}
